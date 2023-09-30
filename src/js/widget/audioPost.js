@@ -88,6 +88,7 @@ async function getAudio() {
   } catch (err) {
     document.querySelector(".audioButtons").remove();
     timelineFormButtons.classList.remove("hide");
+    timelineInput.disabled = false;
 
     timelineWrapper.classList.add("tinting");
     errHTML();

@@ -99,6 +99,7 @@ async function getVideo() {
     document.querySelector(".videoButtons").remove();
     document.querySelector(".videoPreview").remove();
     timelineFormButtons.classList.remove("hide");
+    timelineInput.disabled = false;
 
     timelineWrapper.classList.add("tinting");
     errHTML();
