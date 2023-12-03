@@ -1,4 +1,4 @@
-name: Netology AHJ
+name: Timelime
 
 on: [push, pull_request]
 
